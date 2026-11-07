@@ -57,7 +57,7 @@ Playable: intro movies, title, the spoken introduction, new game, the first leve
 high scores, "Play again?" and the credits. Not tested yet: the Options menu, Save/Restore, two players, later levels,
 music. The game's own About box is not shown. Joysticks go through the Windows joystick API.
 
-The recompiler of this port is the `ruckus` branch of rapture-recomp (pinned by the submodule).
+The recompiler is rapture-recomp (`main`, pinned by the `recomp` submodule), shared by the four ports.
 
 ## License
 
