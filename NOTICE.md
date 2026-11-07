@@ -8,11 +8,12 @@ Company, Disney Interactive or Rapture Technologies.
 their respective owners. They are mentioned only to identify the game this port is compatible
 with.
 
-This repository contains only a build script and documents; the engine (`engine/`, a separate
-repository) is written from scratch. It contains **no game data** (no `.rrs` archives,
-executables, DLLs, videos, images, sounds, music, texts or help files of the original game),
-**no original or decompiled code** and **no game logic**: the game logic is meant to be translated
-to C on the user's computer at build time, from the user's own copy of the game. Do not commit or
-distribute `build/` or `dist/` together with game files or with files generated from them.
+This repository contains only a build script and documents; the engine (`engine/`) and the static
+recompiler (`recomp/`) are separate repositories written from scratch. None of them contains
+**game data** (no `.rrs` archives, executables, DLLs, videos, images, sounds, music, texts or help
+files of the original game), **original or decompiled code** or **game logic**: the code of the
+game is translated to C on the user's computer at build time, from the user's own copy of the
+game, and stays in `build/`. Do not commit or distribute `build/` or `dist/`, game files or any
+file generated from them.
 
 To use this software you must own the original game.
