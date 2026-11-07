@@ -1,0 +1,52 @@
+# Files of the original game (copyrighted): copied by the user from the installed game, never committed
+*.dll
+*.DLL
+*.exe
+*.EXE
+*.rrs
+*.RRS
+*.avi
+*.AVI
+*.hlp
+*.HLP
+*.cnt
+*.CNT
+*.ico
+*.wav
+*.mid
+*.bmp
+extracted/
+
+# Generated: build/ will contain the game logic recompiled from the user's own game DLL
+/build/
+/build-*/
+/dist/
+/gen/
+/recomp/out/
+*.o
+*.obj
+*.a
+*.res
+*.png
+
+# Settings and local environment written by the tools
+*.ini
+!*.ini.example
+build.env.bat
+.buildtools.json
+
+# Temporary and system files
+*.tmp
+*.log
+*.err
+*.bak
+*.orig
+*.swp
+__pycache__/
+*.pyc
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
