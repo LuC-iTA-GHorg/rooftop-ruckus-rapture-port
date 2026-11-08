@@ -47,7 +47,8 @@ If you cloned without `--recurse-submodules`: `git submodule update --init --rec
 
 The executable is `build\ruckus.exe` (with `build\gen\`, which holds the recompiled images of your game files, and
 the DLLs it needs). It runs in the game folder: started from anywhere else it goes to the folder it was built from,
-or to the one given with `--game-dir FOLDER`.
+or to the one given with `--game-dir FOLDER`. Its icon is taken at build time from your own `Ruckus.exe`
+(nothing of the game is stored here), and it carries version information and a manifest.
 
 Do not commit or publish `build/` or any file generated from your game files.
 
